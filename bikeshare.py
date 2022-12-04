@@ -116,7 +116,7 @@ def time_stats(df):
 
     # TO DO: display the most common start hour
     most_common_hour = df['Start Time'].value_counts().idxmax()
-    print("The most common hour is :", most_common_hour)
+    print("The most common start hour is :", most_common_hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -137,8 +137,8 @@ def station_stats(df):
     print("The most common ending station is :", most_common_end_station)
     # TO DO: display most frequent combination of start station and end station trip
     most_common_start_end_station = df[['Start Station', 'End Station']].mode().loc[0]
-    print("The most common used start station and end station combination is : {}, {}"\
-            .format(most_common_start_end_station[0], most_common_start_end_station[1]))
+    print(f"The most common used start station and end station combination is : {most_common_start_end_station[0]}, {most_common_start_end_station[1]}")
+
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -156,7 +156,7 @@ def trip_duration_stats(df):
 
     # TO DO: display mean travel time
     mean_travel = df['Trip Duration'].mean()
-    print("The mean travel time was :", mean_travel)
+    print("The average travel time was :", mean_travel)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
