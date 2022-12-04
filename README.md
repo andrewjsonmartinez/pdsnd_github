@@ -1,33 +1,29 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Description
+Data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. Code allows user to view the system usage between three large cities: Chicago, New York City, and Washington, DC. This data can then be sorted by user entered month and day inputs or have "all" selected. Also raw data can be viewed.
 
-### Date created
+## Date created
 12/03/2022
 
-### BikeShare.Py
 
-### Description
-Data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. Code allows user to view the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
-Allows users to view filtered data or raw data for the follwing:
-#1 Popular times of travel (i.e., occurs most often in the start time)
+## Allows users to view filtered data or raw data for the follwing:
+1 Popular times of travel (i.e., occurs most often in the start time)
     most common month
     most common day of week
     most common hour of day
-#2 Popular stations and trip
+2 Popular stations and trip
     most common start station
     most common end station
     most common trip from start to end (i.e., most frequent combination of start station and end station)
-#3 Trip duration
+ 3 Trip duration
     total travel time
-average travel time
-    #4 User info
+    average travel time
+4 User info
+    counts of each user type
+    counts of each gender (only available for NYC and Chicago)
+    earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
-counts of each user type
-counts of each gender (only available for NYC and Chicago)
-earliest, most recent, most common year of birth (only available for NYC and Chicago)
-
-### Credits
-# Sources Used for Project:
+## Sources Used for Project:
 #https://stackoverflow.com/ for reference on panda and python implementation
 #https://numpy.org/doc/stable/user/index.html#user for Numpy information
 #https://www.geeksforgeeks.org/taking-input-in-python/ For help on taking inputs
