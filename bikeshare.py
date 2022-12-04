@@ -116,7 +116,7 @@ def time_stats(df):
 
     # TO DO: display the most common start hour
     most_common_hour = df['Start Time'].value_counts().idxmax()
-    print("The most common hour is :", most_common_hour)
+    print("The most common start hour is :", most_common_hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -156,7 +156,7 @@ def trip_duration_stats(df):
 
     # TO DO: display mean travel time
     mean_travel = df['Trip Duration'].mean()
-    print("The mean travel time was :", mean_travel)
+    print("The average travel time was :", mean_travel)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
