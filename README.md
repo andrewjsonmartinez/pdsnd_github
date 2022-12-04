@@ -1,5 +1,5 @@
 # Description
-Data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. Code allows user to view the system usage and data between three large cities: Chicago, New York City, and Washington, DC.
+Data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. Code allows user to view the system usage and data between three large cities: Chicago, New York City, and Washington, DC. This data can then be sorted by user entered month and day inputs or have "all" selected. Also raw data can be viewed.
 
 ## Date Created
 12/02/2022
