@@ -21,6 +21,7 @@ Data provided by Motivate, a bike share system provider for many major cities in
         counts of each gender (only available for NYC and Chicago)
         earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
+
 ## Sources Used for Project:
 *https://stackoverflow.com/ for reference on panda and python implementation*
 *https://numpy.org/doc/stable/user/index.html#user for Numpy information*
