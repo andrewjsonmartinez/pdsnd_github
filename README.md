@@ -21,7 +21,6 @@ Data provided by Motivate, a bike share system provider for many major cities in
         counts of each gender (only available for NYC and Chicago)
         earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
-
 ## Sources Used for Project:
 *https://stackoverflow.com/ for reference on panda and python implementation*
 *https://numpy.org/doc/stable/user/index.html#user for Numpy information*
@@ -29,4 +28,6 @@ Data provided by Motivate, a bike share system provider for many major cities in
 *https://github.com/Muhammad-Bonn/Professional-Data-Track/commit/a3431cf6dc73add5d7a8486d6295a84d066908d9 Referenced when I became stuck on Gender information for washington and could not figure out how to exclude.*
 *https://www.w3schools.com/python/pandas/pandas_dataframes.asp Used this to help me implement data frames*
 *https://www.geeksforgeeks.org/different-ways-to-create-pandas-dataframe/ Used this to also help me implement data frames*
+
+
 
